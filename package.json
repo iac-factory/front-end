@@ -1,0 +1,31 @@
+{
+    "name": "@iac-factory/front-end",
+    "version": "0.1.0",
+    "description": "IaC-Factory's Front-End Mono-Repository",
+    "main": "index.js",
+    "author": {
+        "name": "Jacob B. Sanders",
+        "url": "https://github.com/iac-factory",
+        "organization": true
+    },
+    "scripts": {
+        "prepare": "husky install",
+        "patch": "lerna version patch",
+        "minor": "lerna version minor",
+        "major": "lerna version major",
+        "ci": "lerna version prerelease --create-release --sign-git-commit --sign-git-tag"
+    },
+    "devDependencies": {
+        "lerna": "^5.0.0",
+        "@commitlint/format": "^17.0.0",
+        "@commitlint/cli": "^17.0.1",
+        "@commitlint/config-conventional": "^17.0.0",
+        "@commitlint/prompt-cli": "^17.0.0",
+        "@jest/globals": "^28.1.0",
+        "@jest/types": "^28.1.0",
+        "@types/node": "^17.0.34",
+        "conventional-changelog-conventionalcommits": "^4.6.3",
+        "@iac-factory/eslint-settings": "^1.6.28",
+        "husky": "^8.0.1"
+    }
+}
