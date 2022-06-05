@@ -2,13 +2,13 @@ import "./index.scss";
 
 import React from "react";
 
-import { Router } from "./library";
-import { Client } from "./library";
-import { Debugger } from "./library";
+import { Router } from "@iac-factory/front-end-library";
+import { Client } from "@iac-factory/front-end-library";
+import { Debugger } from "@iac-factory/front-end-library";
 
 import { UI } from "./application";
 
-Client.Interface.render(
+Client.initialize("Application").render(
     <React.StrictMode>
         <Router.Browser>
             <UI.Application/>
@@ -18,5 +18,5 @@ Client.Interface.render(
 
 void (() => (Debugger.enable) && Debugger.Vitals())();
 
-export * from "./library";
+export * from "@iac-factory/front-end-library";
 export * from "./components";

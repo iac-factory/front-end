@@ -1,0 +1,23 @@
+@use "../imports" as *;
+
+.center {
+    width: fit-content;
+}
+
+.component {
+    user-select: none;
+    display: inline-flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    vertical-align: middle;
+    height: calc(100% - (var(--global-font-size) / 2));
+
+    .dark {
+        color: rgb(0, 0, 0);
+    }
+
+    .light {
+        color: rgb(250, 250, 250);
+    }
+}

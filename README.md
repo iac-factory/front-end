@@ -1,3 +1,16 @@
+## Release Tagging ##
+
+**Example**
+
+```bash
+git tag --annotate "0.1.117" --message "Basic Form + Proof of Concept Example"
+```
+
+### Pushing Tags to VCS ###
+
+```bash
+git push --follow-tags
+```
 
 ## Conventional Commit Messages ##
 
@@ -22,3 +35,25 @@
 
 - [Specification](https://www.conventionalcommits.org/en/v1.0.0/#specification)
 - [FAQ](https://www.conventionalcommits.org/en/v1.0.0/#faq)
+
+---
+
+## Available Scripts
+
+In the project directory, you can run:
+
+### `npm start`
+
+Runs the web-application in the development mode.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.
+
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the web-application for production to the `build` folder.
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.

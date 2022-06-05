@@ -1,0 +1,12 @@
+{
+    "name": "@iac-factory/authorization-hook",
+    "version": "0.2.118",
+    "scripts": {
+        "start": "true"
+    },
+    "dependencies": {
+        "react": "18.1.0",
+        "react-dom": "^18.1.0",
+        "react-router-dom": "^6.3.0"
+    }
+}

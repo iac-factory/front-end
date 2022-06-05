@@ -2,7 +2,9 @@
     "npmClient": "npm",
     "version": "independent",
     "packages": [
-        "packages/*"
+        "packages/*",
+        "web/components/*",
+        "web/modules/*"
     ],
     "command": {
         "bootstrap": {
@@ -77,6 +79,5 @@
         "commitUrlFormat": "{{host}}/{{owner}}/{{repository}}/commit/{{hash}}",
         "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}",
         "userUrlFormat": "{{host}}/{{user}}"
-    },
-    "useWorkspaces": false
+    }
 }
